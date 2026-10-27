@@ -1,0 +1,28 @@
+name: Build and verify
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+      - name: Verify GitHub Pages subpath build
+        run: npm run check
+        env:
+          BASE_PATH: /core/
+          SITE_URL: https://mbaldwinsmith.github.io/core/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: core-static-site
+          path: dist
+          retention-days: 14
