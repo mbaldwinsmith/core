@@ -7,8 +7,6 @@ for desktop and mobile. Every session is a real HTML page compiled from its own
 Markdown source. No client-side framework, accounts, analytics, external fonts
 or third-party browser scripts.
 
-![CORE desktop home page](docs/core-desktop-20261027.jpg)
-
 Implementation and verification notes are in [docs/verification.md](docs/verification.md).
 
 ## What is included
