@@ -25,7 +25,7 @@ Implementation and verification notes are in [docs/verification.md](docs/verific
   visible focus, reduced-motion and forced-colour support, and mobile navigation.
 - A **progressive web app** with install metadata and icons, a versioned service
   worker, complete-course offline caching and an explicit update prompt.
-- Automated checks, a GitHub Actions build artifact, and an optional manual
+- Automated checks, a GitHub Actions build artifact, and an automatic
   GitHub Pages deployment workflow.
 
 ## Run locally
@@ -244,10 +244,14 @@ See the pull request for the precise browser-verification limits.
 
 1. Merge the implementation into `main`.
 2. In repository **Settings → Pages**, choose **GitHub Actions** as the source.
-3. Run the **Publish GitHub Pages** workflow from Actions on `main`.
+3. Push or merge a change to `main`; **Publish GitHub Pages** builds and deploys it.
+   You can also run that workflow manually from Actions.
 4. Use the deployment URL returned by that workflow.
 
-Publication is manual: this repository does not silently publish every push.
+Publication runs automatically on pushes to `main`. The compatibility trigger also
+publishes after GitHub's legacy **pages build and deployment** workflow, preventing
+that README-based build from remaining as the live site. Choosing **GitHub Actions**
+as the Pages source is recommended so only the custom build needs to run.
 The workflow builds for `/core/` and the intended address
 `https://mbaldwinsmith.github.io/core/`. For another repository name, owner or
 custom domain, edit `BASE_PATH` and `SITE_URL` in the workflow. Do not claim the

@@ -1,5 +1,13 @@
 name: Publish GitHub Pages
 on:
+  push:
+    branches: [main]
+  # Support repositories still using the legacy branch-based Pages source.
+  # Publish the compiled output after that automatic README build finishes.
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
