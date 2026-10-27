@@ -1,0 +1,92 @@
+{
+  "Q1": {
+    "id": "Q1",
+    "text": "You have made us for Yourself, and our hearts are restless until they rest in You.",
+    "attribution": "Augustine, Confessions I.1.1, translated by J. G. Pilkington, in Nicene and Post Nicene Fathers, first series, volume 1; New Advent edition. An invocation to God, not a promise that faith removes all anxiety.",
+    "url": "https://www.newadvent.org/fathers/110101.htm"
+  },
+  "Q2": {
+    "id": "Q2",
+    "text": "the encounter with an event, a person",
+    "attribution": "Benedict XVI, Deus caritas est 1, official English text. A short excerpt about the origin of Christian life.",
+    "url": "https://www.vatican.va/content/benedict-xvi/en/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html"
+  },
+  "Q3": {
+    "id": "Q3",
+    "text": "in communion, in intimacy, with Jesus Christ",
+    "attribution": "Saint John Paul II, Catechesi tradendae 5, official English text. A phrase identifying catechesis' aim.",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_16101979_catechesi-tradendae.html"
+  },
+  "Q4": {
+    "id": "Q4",
+    "text": "For He was made man that we might be made God",
+    "attribution": "Athanasius, On the Incarnation 54.3, translated by Archibald Robertson, Nicene and Post Nicene Fathers, second series, volume 4; New Advent edition. Explain participation by grace, not becoming another divine being or sharing God's essence by nature.",
+    "url": "https://www.newadvent.org/fathers/2802.htm"
+  },
+  "Q5": {
+    "id": "Q5",
+    "text": "Through the Holy Spirit comes our restoration to paradise",
+    "attribution": "Basil of Caesarea, On the Holy Spirit 15.36, translated by Blomfield Jackson, Nicene and Post Nicene Fathers, second series, volume 8; New Advent edition. Read as an account of the Spirit's saving gifts.",
+    "url": "https://www.newadvent.org/fathers/3203.htm"
+  },
+  "Q6": {
+    "id": "Q6",
+    "text": "wherever Jesus Christ is, there is the Catholic Church",
+    "attribution": "Ignatius of Antioch, Letter to the Smyrnaeans 8, translated by Alexander Roberts and James Donaldson, Ante Nicene Fathers, volume 1; New Advent edition. Early witness to Christ, Eucharist and episcopal communion; not a standalone proof of every later ecclesiological formulation.",
+    "url": "https://www.newadvent.org/fathers/0109.htm"
+  },
+  "Q7": {
+    "id": "Q7",
+    "text": "The Pope is not an absolute monarch whose thoughts and desires are law.",
+    "attribution": "Benedict XVI, homily at Saint John Lateran, 7 May 2005, official English text. Read with his explanation that teaching authority serves God's Word.",
+    "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2005/documents/hf_ben-xvi_hom_20050507_san-giovanni-laterano.html"
+  },
+  "Q8": {
+    "id": "Q8",
+    "text": "For me, prayer is a surge of the heart",
+    "attribution": "Thérèse of Lisieux, Manuscript C 25r, as quoted in CCC 2558. The extract introduces a description embracing trial as well as joy.",
+    "url": "https://www.vatican.va/content/catechism/en/part_four/section_one.html"
+  },
+  "Q9": {
+    "id": "Q9",
+    "text": "the knot of Eve's disobedience was loosed by the obedience of Mary",
+    "attribution": "Irenaeus, Against Heresies III.22.4, translated by Alexander Roberts and William Rambaut, Ante Nicene Fathers, volume 1; New Advent edition. Explain Mary's grace-enabled response in relation to Christ, not an independent source of redemption.",
+    "url": "https://www.newadvent.org/fathers/0103322.htm"
+  },
+  "Q10": {
+    "id": "Q10",
+    "text": "a close sharing between friends",
+    "attribution": "Teresa of Ávila, Life 8.5, as quoted in CCC 2709. A brief phrase from her account of prayer; not a test that every prayer must feel emotionally intimate.",
+    "url": "https://www.vatican.va/content/catechism/en/part_four/section_one/chapter_three/article_1/iii_contemplative_prayer.html"
+  },
+  "Q11": {
+    "id": "Q11",
+    "text": "Our prayer is public and common",
+    "attribution": "Cyprian, On the Lord's Prayer 8, translated by Robert Ernest Wallis, Ante Nicene Fathers, volume 5; New Advent edition. The context explains why Jesus teaches “our,” rather than only individual petitions.",
+    "url": "https://www.newadvent.org/fathers/050704.htm"
+  },
+  "Q12": {
+    "id": "Q12",
+    "text": "seeing is far more persuasive than hearing",
+    "attribution": "Mystagogical Catechesis I.1, transmitted under Cyril of Jerusalem; Catechetical Lecture 19 in the linked edition, translated by Edwin Hamilton Gifford, Nicene and Post Nicene Fathers, second series, volume 7. Attribution of the mystagogical lectures is discussed by scholars; identify the textual tradition rather than claiming certainty beyond it. The original addresses the newly baptised.",
+    "url": "https://www.newadvent.org/fathers/310119.htm"
+  },
+  "Q13": {
+    "id": "Q13",
+    "text": "For not as common bread and common drink do we receive these",
+    "attribution": "Justin Martyr, First Apology 66, translated by Marcus Dods and George Reith, Ante Nicene Fathers, volume 1; New Advent edition. Read alongside his account of Christ's flesh and blood and Sunday worship in chapters 65–67.",
+    "url": "https://www.newadvent.org/fathers/0126.htm"
+  },
+  "Q14": {
+    "id": "Q14",
+    "text": "Jesus Christ is the face of the Father's mercy.",
+    "attribution": "Francis, Misericordiae vultus 1, official English text; apostrophe normalised typographically. The course draws from the document, not from a prediction of any individual's spiritual or medical outcome.",
+    "url": "https://www.vatican.va/content/francesco/en/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html"
+  },
+  "Q15": {
+    "id": "Q15",
+    "text": "Christian, recognize your dignity",
+    "attribution": "Saint Leo the Great, Sermon 21.3, as quoted in CCC 1691. Read with the baptismal summons to live accordingly.",
+    "url": "https://www.vatican.va/content/catechism/en/part_three.index.html"
+  }
+}

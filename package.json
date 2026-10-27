@@ -1,0 +1,20 @@
+{
+  "name": "core-catechesis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CORE — Catechesis for Open Reflection and Engagement. An accessible, offline-ready static course.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run build && npm test"
+  },
+  "dependencies": {
+    "markdown-it": "14.3.3",
+    "pdf-lib": "1.17.1"
+  }
+}
